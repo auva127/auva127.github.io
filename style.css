@@ -96,3 +96,15 @@ body {
       font-size: 2rem;
     }
 }
+
+/* Add this new CSS to create the grid layout for the skills section */
+.skills-grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+  }
+  
+  /* Optional: Style the skills columns further if needed */
+  .skills-column {
+    /* Add any additional styling you want */
+  }
